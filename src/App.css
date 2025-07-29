@@ -1,23 +1,69 @@
+@font-face {
+  font-family: 'Bitcount';
+  src: url(../public/fonts/Bitcount-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Nav Style*/
+.NavBar{
+  background-color: #4c3666;
+  color: #fff;
+  display: flex;
+  gap:  0;
+  align-items: center;
+}
+
+.NavBar button {
+  color: #fff;
+  background: transparent;
+  border: none;
+  padding: 1rem 1rem;
+    font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.active-tab {
+  background-color: #04af1b !important;
+  color : #4c3666 !important;
+}
+
+/*App Style*/
 .App {
   text-align: center;
+  background-color: #c3a68d;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ImageContainer {
+  width: 20%;
+  height: auto;
+  border-radius: 0;           
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotateSquare 5s linear infinite; /* Animated rotation */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 5s linear;
-  }
+@keyframes rotateSquare {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ProfilePicture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: counterRotate 5s linear infinite;
+}
+
+@keyframes counterRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+
+.WelcomeBanner {
+  font-family: 'Bitcount', sans-serif;
+
+  background-color: #c3a68d;
 }
