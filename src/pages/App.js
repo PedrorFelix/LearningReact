@@ -1,33 +1,60 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { NavBar } from './NavBar';
-import '../App.css';
+import { ProfileImage } from './ProfileImage';
+import '@material/web/button/filled-button.js';
+import '@material/web/button/outlined-button.js';
+import '@material/web/checkbox/checkbox.js';
+import './style/App.css';
+import './style/WelcomePage.css';
+
 
 function WelcomePage(){
   return(
-    <div className= "WelcomeBanner">
+    <div className="WelcomeBanner">
       <h1 className='Title'>Hello World!</h1>
-      <p>I code things while drinking cofffee</p>
-      <div className='ImageContainer'>
-        <img className='ProfilePicture' src='/assets/stylizedProfileCropped.png' alt="I like Croissaints" sizes="540px"/>
+      <div className="ImageSubtitleWrapper">
+        <ProfileImage className='Photo' svgpath={'/assets/imageContainer.svg'}/>
+        <div className="SubtitleShape">
+          <p className="Subtitle">I code things while drinking coffee</p>
+        </div>
       </div>
-      
     </div>
   )
 }
 
+function About(){
+
+  return(
+    <div>About Page</div>
+  )
+}
+
+function Work(){
+
+  return(
+    <div>Work Page</div>
+  )
+}
+
+function Contact(){
+
+  return(
+    <div>Contact Page</div>
+  )
+}
 
 export default function MyApp() {
 
   return (
     <BrowserRouter>
-      <div style={{ textAlign: "center"}}>
+      <div className="MainPage">
         <NavBar />
         <Routes>
           {/* Define your routes here */}
           <Route path="/" element={<WelcomePage />} />
-          <Route path="/about" element={<div>About Page</div>} />
-          <Route path="/work" element={<div>Work Page</div>} />
-          <Route path="/contact" element={<div>Contact Page</div>} />
+          <Route path="/about" element={<About />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </BrowserRouter>

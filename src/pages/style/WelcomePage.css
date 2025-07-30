@@ -1,0 +1,37 @@
+
+.WelcomeBanner {
+    font-family: 'Bitcount', sans-serif;
+    display: flex;
+}
+
+.Title {
+    max-width: 50%;
+    font-size: 6rem;
+    position: absolute;
+    top: 15%;
+    left:10%;
+}
+
+.ImageSubtitleWrapper {
+    position: relative;
+    top: 10%;
+    left:60%;
+    width: 33%;
+    min-width: 250px;
+}
+
+.SubtitleShape {
+    background-color: #04af1b;
+    border-radius: 20px;
+    margin:0;
+    position: relative;
+    bottom: 5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.Subtitle {
+    color: #4c3666;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
