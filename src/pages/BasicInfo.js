@@ -13,7 +13,7 @@ export function BasicInfo() {
 
     return(
         <div className="BasicInfo">
-            <p className="BasicInfoTitle">Here's a little snippet about me in a familiar format:</p>
+            <p className="BasicInfoTitle">Here's a little snippet of pedroFelix.json:</p>
             <div className="CodeSnippet">
                 <pre><code>{jsonSnippet}</code></pre>
             </div>
