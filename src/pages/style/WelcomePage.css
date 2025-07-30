@@ -1,23 +1,25 @@
-
 .WelcomeBanner {
     font-family: 'Bitcount', sans-serif;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding:20px;
 }
 
-.Title {
-    max-width: 50%;
-    font-size: 6rem;
-    position: absolute;
-    top: 15%;
-    left:10%;
+.WelcomeTitle {
+    font-size: 7vw;
+    padding-left: 50px;
+    padding-top: 50px;
 }
 
 .ImageSubtitleWrapper {
-    position: relative;
-    top: 10%;
-    left:60%;
-    width: 33%;
-    min-width: 250px;
+    width: 80%;
+}
+
+.Content {
+    font-size: 2vw;
+    position:relative;
+    bottom:200%;
+    left:5%;
 }
 
 .SubtitleShape {
