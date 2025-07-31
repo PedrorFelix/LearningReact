@@ -8,16 +8,94 @@ import './style/WelcomePage.css';
 import './style/AboutPage.css';
 import './style/WorkPage.css';
 import './style/ContactPage.css';
+import { Component, useEffect, useState } from "react";
 
+class XPTO extends Component {
 
-function WelcomePage(){
+  constructor(props) {    
+    super();
+
+    this.state = {felipe: 'Olá, sou o Fifi', buttonClicked: false}
+    //Aqui é a primeira ocorrência de código
+  }
+  
+  componentDidMount() {
+    //Terceiro passo do lifecycle
+    //O teu componente acabou de dar mount e já tens a tua view loaded
+    console.log('Class Montou');
+    
+  }
+
+  shouldComponentUpdate() {
+    return false;
+  }
+  
+  componentWillUnmount() {
+    //Quinto e último passo do lifecycle
+    // quando o lifecycle chega ao fim, isto corre
+  }
+
+  privateFunction = (event) => {
+    
+    this.setState({
+      ...this.state,
+      felipe: event?.target?.value ?? ''
+    });
+  }
+
+  render() {
+    // Segundo passo do lifecycle
+    this.privateFunction();
+    const {felipe} = this.state;
+    //Logica fdp
+    return <div>
+      <span>{felipe} com coisas</span>
+      <button onClick={this.toggleVisibilityButton}>Click me to disable recurring on update</button>
+      <input type="text" onChange={(event) => this.privateFunction(event)}></input>
+    </div>
+  }
+}
+
+function WelcomePage(inputs){
+  const {name, code} = inputs;
+  
+  const [state, setState] = useState({
+    props: {
+      a: "Pilinha"
+    },
+    felipe: '',
+    coiso: {
+      b: 0
+    }
+  });
+
+  //ComponentDidMount, precisa do array vazio
+  useEffect(() => console.log('Montou', name, code), []);
+
+  useEffect(() => {
+    //Aqui é território do didUpdate
+    console.log('isto é o update', state.coiso);
+  }, [state.coiso]/*Isto são as dependências do didUpdate*/);
+
+  const updateState = () => {
+    //Isto vai dar alterar uma das dependências do useEffect,
+    //Portanto vai dar trigger
+    setState({...state, coiso: {b: state.coiso.b + 1}});
+  }
+
+  const setStateProps = (newValue) => {
+    setState({...state, props: {a: newValue.target.value}});
+  }
+
   return(
     <div className="WelcomeBanner">
       <h1 className="WelcomeTitle">Hello World!</h1>
       <div className="ImageSubtitleWrapper">
         <ProfileImage className="Photo" svgpath={'/assets/imageContainer.svg'}/>
         <div className="SubtitleShape">
-          <p className="Subtitle">I code things while drinking coffee</p>
+          <p className="Subtitle">I code things while drinking coffee {state.props.a}</p>
+          <button onClick={updateState}>Click me</button>
+          <input type="text" onChange={(event) => setStateProps(event)}></input>
         </div>
       </div>
       <div className="Content">
@@ -94,7 +172,7 @@ export default function MyApp() {
         <NavBar />
         <Routes>
           {/* Define your routes here */}
-          <Route path="/" element={<WelcomePage />} />
+          <Route path="/" element={<WelcomePage name="Pedro" code="abc123" />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
