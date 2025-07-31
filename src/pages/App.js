@@ -3,11 +3,11 @@ import { NavBar } from './NavBar';
 import { ProfileImage } from './ProfileImage';
 import { BasicInfo } from "./BasicInfo";
 import { JobEntry } from "./JobEntry";
-import '@material/web/button/filled-button.js';
-import '@material/web/button/outlined-button.js';
-import '@material/web/checkbox/checkbox.js';
 import './style/App.css';
 import './style/WelcomePage.css';
+import './style/AboutPage.css';
+import './style/WorkPage.css';
+import './style/ContactPage.css';
 
 
 function WelcomePage(){
@@ -27,17 +27,17 @@ function WelcomePage(){
   )
 }
 
-function About(){
+function AboutPage(){
 
   return(
     <div className="AboutBanner">
       <h1 className="AboutTitle">"Tell me about yourself..."</h1>
       <div className="CodeBlock"><BasicInfo /></div>
       <div className="Description">
-        <p>I'm an aspiring junior developer with a deep passion for coding and a will to build impactful software. 
-        I'm eager to apply my skills, focusing in JavaScript and Python but I thrive to continuously learn from my experiences.
-        My goal is to contribute with clean and effective code and grow into a skilled developer.
-        Contact Me! I'm always open to talk about new opportunities.</p>
+        <p>I'm an aspiring junior developer with a deep passion for coding and a will to build impactful software.</p>
+        <p>I'm eager to apply my skills, focusing in JavaScript and Python but I thrive to continuously learn from my experiences.
+        My goal is to contribute with clean and effective code and grow into a skilled developer.</p>
+        <p>Contact Me! I'm always open to talk about new opportunities.</p>
       </div>
     </div>
   )
@@ -64,7 +64,8 @@ function Work(){
         />
 
         <JobEntry position={"Bachelor's Degree"}
-                  company={"Superior School of Technology, Polythecnical Institute of Castelo Branco"}
+                  degree = {"IT and Multimedia"}
+                  company={"Polythecnical Institute of Castelo Branco"}
                   location={"Castelo Branco, Portugal"}
                   begginig={"September 2017"} end ={"September 2022"}
                   description={"A small description of my degree"}
@@ -78,10 +79,9 @@ function Contact(){
 
   return(
     <div className="ContactBanner">
-      <h1>Let's Talk</h1>
+      <h1 className="ContactTitle">Let's Talk!</h1>
       <p> email </p>
-      <p> social media (insta?MAYBE twitter?MAYBE github?YES ) </p>
-      <p> Linked In </p>
+      <p> social media (<i class="fa-brands fa-github"></i>github and <i class="fa-brands fa-linkedin"></i>LinkedIn  ) </p>
     </div>
   )
 }
@@ -95,7 +95,7 @@ export default function MyApp() {
         <Routes>
           {/* Define your routes here */}
           <Route path="/" element={<WelcomePage />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

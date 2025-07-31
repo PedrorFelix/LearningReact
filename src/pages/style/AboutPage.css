@@ -1,0 +1,23 @@
+.AboutBanner{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding:20px;
+    max-height: 80vh;
+}
+
+.AboutTitle{
+    max-width: 80vw;
+    font-family: 'Bitcount', sans-serif;
+    font-size: 250%;
+}
+
+.CodeBlock{
+    margin:10px;
+    max-width: 50vw;
+}
+
+.Description{
+    position: relative;
+    bottom: 100%;
+    max-width: 80vw;
+}
