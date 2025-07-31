@@ -1,14 +1,25 @@
 export function BasicInfo() {
 
-    const name = "Pedro Félix";
-    const age = 25;
-    const nationality = "Portuguese";
-
     const jsonSnippet = `
     {
-    "name": "${name}",
-    "age": ${age},
-    "nationality": "${nationality}"
+        "name": "Pedro Félix",
+        "age": 25,
+        "nationality": "Portuguese",
+        "languages": {
+            "Professional Level (C2)": [
+                "Portuguese", 
+                "English"
+            ],
+            "Conversational Level (B2)": "Spanish",
+            "Begginer Level (A1)": "Italian",
+            "Active Learning (Pre-A1)": "German"
+        },
+        "favoriteHobbies": [ 
+            "Traveling",
+            "Games",
+            "Reading" 
+        ],
+        "favoriteMovies&Series": "Waaaaay to Many, Text Me About This"
     }`;
 
     return(

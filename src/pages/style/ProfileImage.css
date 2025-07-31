@@ -19,20 +19,20 @@
   --mask-scale: 1; /* Default scale */
   transform-origin: 270px 270px;
   animation: rotateSvgMask 30s linear infinite;
+  opacity: 1;
+  fill-opacity: 1;
+  stroke-opacity: 1;
 }
 
-/* Top mask for the image (no delay, default scale) */
 .mask-shape {
   --mask-scale: 0.9;
 }
 
-/* Middle background mask (slightly larger with a small delay) */
 .background-mask-1 {
   --mask-scale: 0.95;
   animation-delay: 0.4s;
 }
 
-/* Bottom background mask (largest with more delay) */
 .background-mask-2 {
   --mask-scale: 1;
   animation-delay: 0.8s;

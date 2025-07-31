@@ -16,7 +16,7 @@ export function ProfileImage( { svgpath } ) {
           </mask>
         </defs>
         {/* Background shape 2 (largest, purple) */}
-        <rect x="0" y="0" width="540" height="540" fill="#4c3666" mask="url(#maskForBg2)" />
+        <rect x="0" y="0" width="540" height="540" fill="#4c3666ff" mask="url(#maskForBg2)" />
 
         {/* Background shape 1 (medium, green) */}
         <rect x="0" y="0" width="540" height="540" fill="#c3a68d" mask="url(#maskForBg1)" />
