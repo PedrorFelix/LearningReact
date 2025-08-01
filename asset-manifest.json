@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/LearningReact/static/css/main.99fb1b1c.css",
-    "main.js": "/LearningReact/static/js/main.f8c11804.js",
+    "main.js": "/LearningReact/static/js/main.b86fb6a7.js",
     "static/js/453.15c7e972.chunk.js": "/LearningReact/static/js/453.15c7e972.chunk.js",
     "static/media/Bitcount-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf": "/LearningReact/static/media/Bitcount-VariableFont_CRSV,ELSH,ELXP,slnt,wght.acc0ea7dfbc8dc966f34.ttf",
     "static/media/backgroundShape.svg": "/LearningReact/static/media/backgroundShape.f18745ab440751f2606f.svg",
     "index.html": "/LearningReact/index.html",
     "main.99fb1b1c.css.map": "/LearningReact/static/css/main.99fb1b1c.css.map",
-    "main.f8c11804.js.map": "/LearningReact/static/js/main.f8c11804.js.map",
+    "main.b86fb6a7.js.map": "/LearningReact/static/js/main.b86fb6a7.js.map",
     "453.15c7e972.chunk.js.map": "/LearningReact/static/js/453.15c7e972.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99fb1b1c.css",
-    "static/js/main.f8c11804.js"
+    "static/js/main.b86fb6a7.js"
   ]
 }
