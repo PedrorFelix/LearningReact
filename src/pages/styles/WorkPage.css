@@ -8,3 +8,10 @@
 .WorkTitle{
   font-family: 'Bitcount', sans-serif;
 }
+
+.briefcaseIcon{
+  scale: 2000%;
+  position: relative;
+  left:20vw;
+  bottom:30vh;
+}

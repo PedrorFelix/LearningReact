@@ -1,4 +1,4 @@
-import './style/BasicInfo.css';
+import './styles/BasicInfo.css';
 
 export function BasicInfo() {
 
@@ -7,13 +7,11 @@ export function BasicInfo() {
     "age": 25,
     "nationality": "Portuguese",
     "languages": {
-        "Professional Level (C2)": [
-            "Portuguese", 
-            "English"
-        ],
-        "Conversational Level (B2)": "Spanish",
-        "Begginer Level (A1)": "Italian",
-        "Active Learning (Pre-A1)": "German"
+        "Portuguese": "C2 (Native)",
+        "English": "C2",
+        "Spanish": "B2",
+        "Italian": "A1",
+        "German": "A0"
     },
     "favoriteHobbies": [ 
         "Traveling",

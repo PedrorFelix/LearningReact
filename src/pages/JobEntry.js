@@ -1,4 +1,4 @@
-import './style/JobEntry.css';
+import './styles/JobEntry.css';
 export function JobEntry( { position, degree= null, company, location, begginig, end, description } ) {
 
     return(
@@ -10,7 +10,7 @@ export function JobEntry( { position, degree= null, company, location, begginig,
                 )}
                 <div className="Dates">From {begginig} until {end}</div>
                 <div className="WorkLocation">{location}</div>
-                <div className="Description">{description}</div>
+                <div className="JobDescription">{description}</div>
             </div>
         </div>
     )

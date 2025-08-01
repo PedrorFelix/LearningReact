@@ -17,8 +17,12 @@
 }
 
 .active-tab {
-  background-color: #04af1b !important;
+  background-color: #00c9aa !important;
   color : #4c3666 !important;
-  font-size: 1.25rem;
+  font-size: 1.5rem !important;
   height: 8vh;
+}
+
+.not-active-tab{
+  font-size: 1.1rem !important;
 }

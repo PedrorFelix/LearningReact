@@ -18,6 +18,6 @@
 
 .Description{
     position: relative;
-    bottom: 100%;
-    max-width: 80vw;
+    bottom: 40vh;
+    max-width: 40vw;
 }

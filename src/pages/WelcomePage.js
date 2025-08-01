@@ -1,0 +1,19 @@
+import { ProfileImage } from './ProfileImage';
+import './styles/WelcomePage.css';
+
+export function WelcomePage(){
+  return(
+    <div className="WelcomeBanner">
+      <h1 className="WelcomeTitle">Hello_World!</h1>
+      <div className="ImageSubtitleWrapper">
+        <ProfileImage className="Photo" svgpath={'/assets/imageContainer.svg'}/>
+        <div className="SubtitleShape">
+          <p className="Subtitle">I code things while drinking coffee</p>
+        </div>
+      </div>
+      <div className="Content">
+        <p>My name is Pedro Félix and I do keyboard magic</p>
+      </div>
+    </div>
+  )
+}

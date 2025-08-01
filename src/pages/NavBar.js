@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import "./style/NavBar.css";
+import "./styles/NavBar.css";
 
 export function NavBar() {
     const navigate = useNavigate();
@@ -10,19 +10,19 @@ export function NavBar() {
         <nav className="NavBar">
           {/* Navigation Buttons */}
           <button
-          className={location.pathname ==="/" ? "active-tab" : ""} 
+          className={location.pathname ==="/" ? "active-tab" : "not-active-tab"} 
           onClick={() => navigate("/")}>Welcome</button>
 
           <button 
-          className={location.pathname ==="/about" ? "active-tab" : ""} 
+          className={location.pathname ==="/about" ? "active-tab" : "not-active-tab"} 
           onClick={() => navigate("/about")}>About</button>
 
           <button 
-          className={location.pathname ==="/work" ? "active-tab" : ""} 
+          className={location.pathname ==="/work" ? "active-tab" : "not-active-tab"} 
           onClick={() => navigate("/work")}>Work</button>
 
           <button 
-          className={location.pathname ==="/contact" ? "active-tab" : ""} 
+          className={location.pathname ==="/contact" ? "active-tab" : "not-active-tab"} 
           onClick={() => navigate("/contact")}>Contact</button>
         </nav>
     );
