@@ -1,12 +1,15 @@
 .WorkBanner{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-areas:
+      "WorkTitle JobList"
+      "brifcaseIcon JobList";
     padding:20px;
     max-height: 80vh;
 }
 
 .WorkTitle{
   font-family: 'Bitcount', sans-serif;
+    font-size: 250%;
 }
 
 .briefcaseIcon{

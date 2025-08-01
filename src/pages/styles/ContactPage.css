@@ -1,10 +1,21 @@
 .ContactBanner {
     display:grid;
-    grid-template-columns: auto auto auto;
+    grid-template-areas:
+        "ContactTile"
+        "ContactList";
+    grid-template-columns: 1fr;
     padding:20px;
-    max-height: 80vh;
 }
 
 .ContactTitle {
     font-family: 'BitCount', 'sans-serif';
+    font-size:250%;
+    grid-area: ContactTile;
+}
+
+.ContactList {
+    grid-area: ContactList;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
 }

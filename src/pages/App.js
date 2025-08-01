@@ -12,7 +12,6 @@ export default function MyApp() {
       <div className="MainPage">
         <NavBar />
         <Routes>
-          {/* Define your routes here */}
           <Route path="/" element={<WelcomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/work" element={<WorkPage />} />

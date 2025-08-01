@@ -1,12 +1,14 @@
 .AboutBanner{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-areas:
+        "AboutTitle CodeBlock"
+        "Description CodeBlock";
+    grid-template-columns: 1fr 1fr;
     padding:20px;
     max-height: 80vh;
 }
 
 .AboutTitle{
-    max-width: 80vw;
     font-family: 'Bitcount', sans-serif;
     font-size: 250%;
 }
@@ -18,6 +20,5 @@
 
 .Description{
     position: relative;
-    bottom: 40vh;
-    max-width: 40vw;
+    bottom: 45vh;
 }

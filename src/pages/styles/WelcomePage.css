@@ -1,7 +1,9 @@
 .WelcomeBanner {
     font-family: 'Bitcount', sans-serif;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-areas:
+        "WelcomeTitle ImageSubtitleWrapper"
+        "Content ImageSubtitleWrapper";
     padding:20px;
 }
 
@@ -19,7 +21,7 @@
     font-size: 2vw;
     position:relative;
     bottom:200%;
-    left:5%;
+    padding-left: 50px;
 }
 
 .SubtitleShape {
