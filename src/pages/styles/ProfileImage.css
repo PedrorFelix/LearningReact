@@ -18,7 +18,6 @@
 .background-mask-2 {
   --mask-scale: 1; /* Default scale */
   transform-origin: 270px 270px;
-  animation: rotateSvgMask 30s linear infinite;
   opacity: 1;
   fill-opacity: 1;
   stroke-opacity: 1;
@@ -26,16 +25,18 @@
 
 .mask-shape {
   --mask-scale: 0.9;
+
+  animation: rotateSvgMask 30s linear infinite;
 }
 
 .background-mask-1 {
   --mask-scale: 0.95;
-  animation-delay: 0.4s;
+  animation: rotateSvgMask 15s linear infinite;
 }
 
 .background-mask-2 {
   --mask-scale: 1;
-  animation-delay: 0.8s;
+  animation: rotateSvgMask 22.5s linear infinite;
 }
 
 @keyframes rotateSvgMask {

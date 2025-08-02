@@ -1,4 +1,5 @@
 import "./styles/ProfileImage.css";
+import imagePath from '../assets/stylizedProfileCropped.png';
 
 export function ProfileImage( { svgpath } ) {
   return (
@@ -22,7 +23,7 @@ export function ProfileImage( { svgpath } ) {
         <rect x="0" y="0" width="540" height="540" fill="#e8d5b5" mask="url(#maskForBg1)" />
         
         {/* The main profile image, masked by the rotating shape. */}
-        <image href="/assets/stylizedProfileCropped.png" x="0" y="30" width="540" height="540" mask="url(#maskForImage)" />
+        <image href= { imagePath } x="0" y="-25" width="540" height="540" mask="url(#maskForImage)" />
       </svg>
     </div>
   );

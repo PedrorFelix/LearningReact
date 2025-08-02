@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Bitcount';
-  src: url(../../../public/fonts/Bitcount-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf) format('truetype');
+  src: url(../../fonts/Bitcount-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -8,7 +8,7 @@
 .MainPage {
   min-height: 100vh;
   background-color: #e8d5b5;
-  background-image: url('../../../public/assets/backgroundShape.svg');
+  background-image: url('../../assets/backgroundShape.svg');
   background-repeat: repeat;
   background-size: 250px 250px;
 }

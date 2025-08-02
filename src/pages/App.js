@@ -8,7 +8,7 @@ import './styles/App.css';
 
 export default function MyApp() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/LearningReact">
       <div className="MainPage">
         <NavBar />
         <Routes>
