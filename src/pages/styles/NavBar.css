@@ -2,9 +2,11 @@
   background-color: #4c3666;
   color: #fff;
   display: flex;
-  gap:  0;
+  position: relative;
+  height:8vh;
+  padding: 0 1rem;
+  justify-content: space-between;
   align-items: center;
-  height: 8vh;
 }
 
 .NavBar button {
@@ -13,16 +15,81 @@
   background: transparent;
   border: none;
   padding: 1rem 1rem;
-  transition: background 0.2s;
+  transition: background 0.5s;
+  cursor: pointer;
+  border-radius: 30px;
 }
 
-.active-tab {
+.nav-menu{
+  display: flex;
+  gap: 0;
+  align-items: center;
+}
+
+.active-btn {
   background-color: #00c9aa !important;
   color : #4c3666 !important;
   font-size: 1.5rem !important;
-  height: 8vh;
+  height: 7vh;
 }
 
-.not-active-tab{
+.not-active-btn{
   font-size: 1.1rem !important;
+}
+
+.not-active-btn:hover{
+  background-color: rgba(0, 201, 170, 0.5);
+}
+
+.hamburger-btn{
+  display:none;
+  flex-direction: column;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 999;
+}
+
+@media (max-width: 700px){
+  .hamburger-btn{
+    display:flex;
+  }
+
+  .nav-menu{
+    position: fixed;
+    top: 8vh;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 8vh);
+    background-color: #4c3666;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: left 0.3s ease;
+    padding-top: 2rem;
+    z-index: 1000;
+  }
+
+  .nav-menu.open {
+    left: 0;
+  }
+
+  .nav-menu button {
+    width: 80%;
+    margin: 0.5rem 0;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .active-btn {
+    font-size: 1.3rem !important;
+    height: auto;
+  }
+
+  .not-active-btn {
+    font-size: 1.1rem !important;
+  }
+
 }

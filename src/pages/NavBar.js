@@ -17,19 +17,23 @@ export function NavBar() {
 
   return (
       <nav className="NavBar">
-        <div className="nav-menu">
+        <button
+          className="hamburger-btn"
+          onClick={toggleMenu}
+        >Menu</button>
+        <div className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
           <button
-          className={location.pathname ==="/" ? "active-tab" : "not-active-tab"} 
-          onClick={() => navigate("/")}>Welcome</button>
+          className={location.pathname ==="/" ? "active-btn" : "not-active-btn"} 
+          onClick={() => AutoCloseNav("/")}>Welcome</button>
           <button 
-          className={location.pathname ==="/about" ? "active-tab" : "not-active-tab"} 
-          onClick={() => navigate("/about")}>About</button>
+          className={location.pathname ==="/about" ? "active-btn" : "not-active-btn"} 
+          onClick={() => AutoCloseNav("/about")}>About</button>
           <button 
-          className={location.pathname ==="/work" ? "active-tab" : "not-active-tab"} 
-          onClick={() => navigate("/work")}>Work</button>
+          className={location.pathname ==="/work" ? "active-btn" : "not-active-btn"} 
+          onClick={() => AutoCloseNav("/work")}>Work</button>
           <button 
-          className={location.pathname ==="/contact" ? "active-tab" : "not-active-tab"} 
-          onClick={() => navigate("/contact")}>Contact</button>
+          className={location.pathname ==="/contact" ? "active-btn" : "not-active-btn"} 
+          onClick={() => AutoCloseNav("/contact")}>Contact</button>
         </div>
         
       </nav>

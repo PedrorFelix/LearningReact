@@ -11,7 +11,7 @@ export function WorkPage(){
                   company={"VisionSpace Portugal"} 
                   location={"Figueira da Foz, Portugal"} 
                   begginig={"May 2023"} end ={"February 2025"} 
-                  description={"A small description why working here was shit"}
+                  description={"A small description of working here"}
         />
 
         <JobEntry position={"Intern"}
