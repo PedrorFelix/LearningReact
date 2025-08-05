@@ -1,20 +1,51 @@
-.WorkBanner{
-    display: grid;
-    grid-template-areas:
-      "WorkTitle JobList"
-      "brifcaseIcon JobList";
-    padding:20px;
-    max-height: 80vh;
+.WorkBanner {
+  display: grid;
+  grid-template-areas:
+    "WorkTitle briefcaseIcon"
+    "JobList briefcaseIcon";
+  grid-template-columns: 1fr auto;
+  padding: 20px;
+  max-height: 80vh;
+  gap: 20px;
 }
 
-.WorkTitle{
+.WorkTitle {
+  grid-area: WorkTitle;
   font-family: 'Bitcount', sans-serif;
-    font-size: 250%;
+  font-size: 250%;
+  align-self: end;
 }
 
-.briefcaseIcon{
-  scale: 2000%;
-  position: relative;
-  left:20vw;
-  bottom:20vh;
+.JobList {
+  grid-area: JobList;
+}
+
+.briefcaseIcon {
+  grid-area: briefcaseIcon;
+  font-size: 4rem;
+  align-self: center;
+  margin-left: 60px;
+  opacity: 0.8;
+}
+
+@media (max-width: 700px) {
+  .WorkBanner {
+    grid-template-areas:
+      "WorkTitle"
+      "JobList"
+      "briefcaseIcon";
+    grid-template-columns: 1fr;
+    gap: 15px;
+    max-height: none;
+  }
+  
+  .WorkTitle {
+    text-align: center;
+    font-size: 12vw;
+    align-self: auto;
+  }
+  
+  .briefcaseIcon {
+    display: none;
+  }
 }

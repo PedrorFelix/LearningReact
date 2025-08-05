@@ -1,21 +1,55 @@
-.BasicInfo{
- background-color: #4c3666;
- color:white;
- padding:10px;
- border-radius:10px;
- 
-    box-shadow: 2px 8px 10px rgba(0,0,0, 0.5);
+.BasicInfo {
+    background-color: #4c3666;
+    color: white;
+    padding: clamp(0.75rem, 3vw, 1.25rem);
+    border-radius: 10px;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
-.BasicInfoTitle{
-    margin-left: 20px;
-    font-size: 133%;
+.BasicInfoTitle {
+    margin-left: clamp(0.5rem, 4vw, 1.25rem);
+    font-size: clamp(1rem, 4vw, 1.33rem);
+    margin-bottom: 1rem;
+    line-height: 1.4;
 }
 
-.CodeSnippet{
+.CodeSnippet {
     background-color: #007e6a;
-    color:#00c9aa;
-    margin: 0px 10px 10px 10px;
-    padding:10px;
-    border-radius:10px;
+    color: #00c9aa;
+    margin: 0 clamp(0.5rem, 2vw, 0.625rem) clamp(0.5rem, 2vw, 0.625rem) clamp(0.5rem, 2vw, 0.625rem);
+    padding: clamp(0.5rem, 3vw, 0.75rem);
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Courier New', Consolas, monospace;
+}
+
+.CodeSnippet pre {
+    margin: 0;
+    white-space: pre;
+    overflow-x: auto;
+    font-size: clamp(0.7rem, 2.5vw, 0.9rem);
+    line-height: 1.4;
+}
+
+.CodeSnippet code {
+    font-family: inherit;
+    display: block;
+    min-width: max-content;
+}
+
+@media (max-width: 700px) {
+    .BasicInfo {
+        padding: 1rem;
+    }
+    
+    .BasicInfoTitle {
+        font-size: 1.1rem;
+    }
+    
+    .CodeSnippet pre {
+        font-size: 0.8rem;
+    }
 }

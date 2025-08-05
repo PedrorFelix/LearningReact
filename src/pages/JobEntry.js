@@ -1,5 +1,5 @@
 import './styles/JobEntry.css';
-export function JobEntry( { position, degree= null, company, location, begginig, end, description } ) {
+export function JobEntry( { position, degree= null, company, location, beginnig, end, description } ) {
 
     return(
         <div className="JobEntry">
@@ -8,7 +8,7 @@ export function JobEntry( { position, degree= null, company, location, begginig,
                 {degree && (
                     <div className="Degree">{degree}</div>
                 )}
-                <div className="Dates">From {begginig} until {end}</div>
+                <div className="Dates">From {beginnig} until {end}</div>
                 <div className="WorkLocation">{location}</div>
                 <div className="JobDescription">{description}</div>
             </div>

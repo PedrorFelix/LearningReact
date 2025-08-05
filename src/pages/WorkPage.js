@@ -10,14 +10,14 @@ export function WorkPage(){
         <JobEntry position={"Junior Software Developer"} 
                   company={"VisionSpace Portugal"} 
                   location={"Figueira da Foz, Portugal"} 
-                  begginig={"May 2023"} end ={"February 2025"} 
+                  beginnig={"May 2023"} end ={"February 2025"} 
                   description={"A small description of working here"}
         />
 
         <JobEntry position={"Intern"}
                   company={"VisionSpace Technologies GmbH"}
                   location={"Darmstadt, Germany"}
-                  begginig={"October 2022"} end ={"March 2023"} 
+                  beginnig={"October 2022"} end ={"March 2023"} 
                   description={"A small description why this intership was actually great"}
         />
 
@@ -25,7 +25,7 @@ export function WorkPage(){
                   degree = {"IT and Multimedia"}
                   company={"Polythecnical Institute of Castelo Branco"}
                   location={"Castelo Branco, Portugal"}
-                  begginig={"September 2017"} end ={"September 2022"}
+                  beginnig={"October 2017"} end ={"September 2022"}
                   description={"A small description of my degree"}
         />
       </div>
