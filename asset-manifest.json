@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/LearningReact/static/css/main.c1588bce.css",
-    "main.js": "/LearningReact/static/js/main.354c285c.js",
+    "main.css": "/LearningReact/static/css/main.cd189f2b.css",
+    "main.js": "/LearningReact/static/js/main.5cfce606.js",
     "static/js/453.15c7e972.chunk.js": "/LearningReact/static/js/453.15c7e972.chunk.js",
     "static/media/stylizedProfileCropped.png": "/LearningReact/static/media/stylizedProfileCropped.f7b46a7ff66609fe2c66.png",
     "static/media/Bitcount-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf": "/LearningReact/static/media/Bitcount-VariableFont_CRSV,ELSH,ELXP,slnt,wght.acc0ea7dfbc8dc966f34.ttf",
     "static/media/backgroundShape.svg": "/LearningReact/static/media/backgroundShape.f18745ab440751f2606f.svg",
     "static/media/imageContainer.svg": "/LearningReact/static/media/imageContainer.8b1d2aaf67b540ce33f43ee8792f506d.svg",
     "index.html": "/LearningReact/index.html",
-    "main.c1588bce.css.map": "/LearningReact/static/css/main.c1588bce.css.map",
-    "main.354c285c.js.map": "/LearningReact/static/js/main.354c285c.js.map",
+    "main.cd189f2b.css.map": "/LearningReact/static/css/main.cd189f2b.css.map",
+    "main.5cfce606.js.map": "/LearningReact/static/js/main.5cfce606.js.map",
     "453.15c7e972.chunk.js.map": "/LearningReact/static/js/453.15c7e972.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1588bce.css",
-    "static/js/main.354c285c.js"
+    "static/css/main.cd189f2b.css",
+    "static/js/main.5cfce606.js"
   ]
 }
