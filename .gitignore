@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# development notes
+/devnotes
+
 # production
 /build
 
