@@ -1,4 +1,4 @@
-.JobEntry {
+.jobEntry {
     background-color: #4c3666;
     color: #ddc0fa;
     border-radius: 20px;
@@ -15,7 +15,7 @@
     }
 }
 
-.PositionName {
+.positionName {
     font-size: 1.1rem;
     margin-bottom: 12px;
     line-height: 1.3;
@@ -26,20 +26,20 @@
     }
 }
 
-.PositionName h3 {
+.positionName h3 {
     margin: 0;
     font-weight: 600;
     word-wrap: break-word;
     hyphens: auto;
 }
 
-.Details {
+.details {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.Degree {
+.degree {
     font-style: italic;
     opacity: 0.9;
     font-size: 0.95rem;
@@ -49,7 +49,7 @@
     }
 }
 
-.Dates {
+.dates {
     font-size: 0.9rem;
     font-weight: 500;
     color: #b8a0d9;
@@ -59,7 +59,7 @@
     }
 }
 
-.WorkLocation {
+.workLocation {
     font-size: 0.9rem;
     opacity: 0.9;
     
@@ -68,7 +68,7 @@
     }
 }
 
-.JobDescription {
+.jobDescription {
     margin-top: 8px;
     line-height: 1.5;
     font-size: 0.95rem;
@@ -82,7 +82,7 @@
     }
 }
 
-.JobEntry-container {
+.jobEntry-container {
     display: flex;
     flex-direction: column;
     width: 100%;

@@ -6,10 +6,10 @@ import { WorkPage } from "./WorkPage";
 import { ContactPage } from "./ContactPage";
 import './styles/App.css';
 
-export default function MyApp() {
+export default function App() {
   return (
     <BrowserRouter basename="/LearningReact">
-      <div className="MainPage">
+      <div className="mainPage">
         <NavBar />
         <Routes>
           <Route path="/" element={<WelcomePage />} />

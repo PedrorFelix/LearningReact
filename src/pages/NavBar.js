@@ -16,7 +16,7 @@ export function NavBar() {
   };
 
   return (
-      <nav className="NavBar">
+      <nav className="navBar">
         <button
           className="hamburger-btn"
           onClick={toggleMenu}

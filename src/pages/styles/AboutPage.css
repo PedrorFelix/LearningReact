@@ -1,4 +1,4 @@
-.AboutBanner {
+.aboutBanner {
     display: grid;
     grid-template-areas:
         "AboutTitle CodeBlock"
@@ -9,7 +9,7 @@
     gap: clamp(0.75rem, 2vw, 1.5rem);
 }
 
-.AboutTitle {
+.aboutTitle {
     font-family: 'Bitcount', sans-serif;
     font-size: clamp(1.5rem, 6vw, 2.5rem);
     grid-area: AboutTitle;
@@ -17,18 +17,18 @@
     line-height: 1.2;
 }
 
-.Description {
+.description {
     grid-area: Description;
     position: relative;
 }
 
-.Description p {
+.description p {
     font-size: clamp(0.9rem, 2.5vw, 1.1rem);
     line-height: 1.5;
     margin-bottom: 1rem;
 }
 
-.CodeBlock {
+.codeBlock {
     grid-area: CodeBlock;
     margin: 0;
     max-width: 100%;
@@ -37,7 +37,7 @@
 }
 
 @media (max-width: 700px) {
-    .AboutBanner {
+    .aboutBanner {
         grid-template-columns: 1fr;    
         grid-template-areas:
             "AboutTitle"
@@ -48,24 +48,24 @@
         max-height: none;
     }
     
-    .AboutTitle {
+    .aboutTitle {
         font-size: clamp(2rem, 10vw, 3.5rem);
         margin-bottom: 0.5rem;
         text-align: center;
     }
 
-    .Description {
+    .description {
         position: static;
         text-align: center;
         margin-bottom: 1rem;
     }
     
-    .Description p {
+    .description p {
         font-size: clamp(0.85rem, 4vw, 1rem);
         margin-bottom: 0.75rem;
     }
 
-    .CodeBlock {
+    .codeBlock {
         width: 100%;
         max-width: 100%;
         justify-self: center;

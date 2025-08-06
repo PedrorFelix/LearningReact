@@ -1,4 +1,4 @@
-.ContactBanner {
+.contactBanner {
     display: grid;
     grid-template-areas:
         "ContactTile"
@@ -7,13 +7,13 @@
     padding: 20px;
 }
 
-.ContactTitle {
+.contactTitle {
     font-family: 'BitCount', 'sans-serif';
     font-size: 250%;
     grid-area: ContactTile;
 }
 
-.ContactList {
+.contactList {
     grid-area: ContactList;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -21,18 +21,18 @@
 }
 
 @media (max-width: 700px) {
-    .ContactBanner {
+    .contactBanner {
         padding: 15px 10px;
         gap: 15px;
     }
     
-    .ContactTitle {
+    .contactTitle {
         font-size: 12vw;
         text-align: center;
         margin-bottom: 10px;
     }
     
-    .ContactList {
+    .contactList {
         grid-template-columns: 1fr;
         gap: 10px;
         margin: 0 auto;

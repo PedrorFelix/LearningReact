@@ -3,7 +3,7 @@ import imagePath from '../assets/stylizedProfileCropped.png';
 
 export function ProfileImage( { svgpath } ) {
   return (
-    <div className='ImageContainer'>
+    <div className='imageContainer'>
       <svg width="100%" height="100%" viewBox="0 0 540 540" preserveAspectRatio="xMidYMid meet" alt="" >
         <defs>
           <mask id="maskForImage">

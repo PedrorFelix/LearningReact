@@ -4,9 +4,9 @@ import { ContactEntry } from './ContactEntry';
 export function ContactPage(){
 
   return(
-    <div className="ContactBanner">
-      <h1 className="ContactTitle">Let's Talk!</h1>
-      <div className="ContactList">
+    <div className="contactBanner">
+      <h1 className="contactTitle">Let's Talk!</h1>
+      <div className="contactList">
         <ContactEntry 
           contactIcon = {<i class="icon fa-solid fa-envelope"></i>}
           contactType = "Email"

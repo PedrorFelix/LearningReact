@@ -1,4 +1,4 @@
-.NavBar{
+.navBar{
   background-color: #4c3666;
   color: #fff;
   display: flex;
@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.NavBar button {
+.navBar button {
   font-family: 'Bitcount', sans-serif;
   color: #fff;
   background: transparent;

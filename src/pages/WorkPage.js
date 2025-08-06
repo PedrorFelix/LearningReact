@@ -4,9 +4,9 @@ import './styles/WorkPage.css';
 export function WorkPage(){
 
   return(
-    <div className="WorkBanner">
-      <h1 className="WorkTitle">Main Quests Completed</h1>
-      <div className="JobList">
+    <div className="workBanner">
+      <h1 className="workTitle">Main Quests Completed</h1>
+      <div className="jobList">
         <JobEntry position={"Junior Software Developer"} 
                   company={"VisionSpace Portugal"} 
                   location={"Figueira da Foz, Portugal"} 

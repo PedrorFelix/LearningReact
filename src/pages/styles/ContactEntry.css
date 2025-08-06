@@ -1,4 +1,4 @@
-.ContactEntry{
+.contactEntry{
     background-color: #4c3666;
     color: white;
     margin: 5px;
@@ -8,25 +8,25 @@
     box-shadow: 2px 8px 10px rgba(0,0,0, 0.5);
 }
 
-.IconBox{
+.iconBox{
     position: relative;
     right: 40%;
     top: 10%;
 }
 
-.ContactContent{
+.contactContent{
     color: white;
 }
 
 @media (max-width: 700px) {
-    .ContactEntry {
+    .contactEntry {
         margin: 3px;
         padding: 12px 8px;
         border-radius: 10px;
         box-shadow: 1px 4px 6px rgba(0,0,0, 0.4);
     }
     
-    .IconBox {
+    .iconBox {
         position: static;
         right: auto;
         top: auto;
@@ -38,14 +38,14 @@
         font-size: 14px;
     }
     
-    .ContactContent {
+    .contactContent {
         font-size: 14px;
         word-break: break-word;
         line-height: 1.4;
     }
     
     
-    .ContactContent a {
+    .contactContent a {
         display: inline-block;
         min-height: 44px;
         display: flex;
@@ -57,8 +57,8 @@
         transition: background-color 0.2s ease;
     }
     
-    .ContactContent a:hover,
-    .ContactContent a:focus {
+    .contactContent a:hover,
+    .contactContent a:focus {
         background-color: rgba(255, 255, 255, 0.1);
         outline: none;
     }

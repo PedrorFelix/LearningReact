@@ -1,4 +1,4 @@
-.WorkBanner {
+.workBanner {
   display: grid;
   grid-template-areas:
     "WorkTitle briefcaseIcon"
@@ -9,14 +9,14 @@
   gap: 20px;
 }
 
-.WorkTitle {
+.workTitle {
   grid-area: WorkTitle;
   font-family: 'Bitcount', sans-serif;
   font-size: 250%;
   align-self: end;
 }
 
-.JobList {
+.jobList {
   grid-area: JobList;
 }
 
@@ -29,7 +29,7 @@
 }
 
 @media (max-width: 700px) {
-  .WorkBanner {
+  .workBanner {
     grid-template-areas:
       "WorkTitle"
       "JobList"
@@ -39,7 +39,7 @@
     max-height: none;
   }
   
-  .WorkTitle {
+  .workTitle {
     text-align: center;
     font-size: 12vw;
     align-self: auto;

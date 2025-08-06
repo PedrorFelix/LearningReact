@@ -22,9 +22,9 @@ export function BasicInfo() {
 }`;
 
     return(
-        <div className="BasicInfo">
-            <p className="BasicInfoTitle">Here's a little snippet of pedroFelix.json:</p>
-            <div className="CodeSnippet">
+        <div className="basicInfo">
+            <p className="basicInfoTitle">Here's a little snippet of pedroFelix.json:</p>
+            <div className="codeSnippet">
                 <pre><code>{jsonSnippet}</code></pre>
             </div>
         </div>
