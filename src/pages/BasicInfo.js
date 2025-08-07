@@ -7,7 +7,7 @@ export function BasicInfo() {
     "age": 25,
     "nationality": "Portuguese",
     "languages": {
-        "Portuguese": "C2 (Native)",
+        "Portuguese": "Native",
         "English": "C2",
         "Spanish": "B2",
         "Italian": "A1",

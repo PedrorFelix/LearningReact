@@ -10,7 +10,7 @@
 .welcomeTitle {
     font-size: 7vw;
     padding-left: 50px;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .imageSubtitleWrapper {
@@ -21,7 +21,6 @@
     font-size: 2vw;
     position:relative;
     bottom:200%;
-    padding-left: 50px;
     text-align: center;
 }
 

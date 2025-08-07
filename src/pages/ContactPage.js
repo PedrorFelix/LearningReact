@@ -10,15 +10,18 @@ export function ContactPage(){
         <ContactEntry 
           contactIcon = {<i class="icon fa-solid fa-envelope"></i>}
           contactType = "Email"
-          contact = "pedrojrfelix1999@gmail.com" />
+          contact = "pedrojrfelix1999@gmail.com"
+          btnText = "pedrojrfelix1999@gmail.com"/>
         <ContactEntry 
           contactIcon = {<i class="icon fa-brands fa-github"></i>}
           contactType = "Github"
-          contact = "https://github.com/PedrorFelix" />
+          contact = "https://github.com/PedrorFelix" 
+          btnText = "PedrorFelix"/>
         <ContactEntry 
           contactIcon = {<i class="icon fa-brands fa-linkedin"></i>}
           contactType = "LinkedIn"
-          contact = "https://www.linkedin.com/in/pedro-f%C3%A9lix-8517a0233/" />
+          contact = "https://www.linkedin.com/in/pedro-f%C3%A9lix-8517a0233/" 
+          btnText = "Pedro Félix"/>
       </div>
     </div>
   )
