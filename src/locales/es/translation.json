@@ -48,7 +48,24 @@
         "title": "¡Hablemos!"
     },
     "componentText": {
-        "basicInfoText": "Aquí tienes un pequeño fragmento de",
-        "jobEntryDates": ["Desde","hasta"]
+        "jobEntryDates": ["Desde","hasta"],
+        "basicInfo": {
+            "title": "Aquí tienes un pequeño fragmento de",
+            "nameLabel": "nombre",
+            "ageLabel": "edad",
+            "nacionalityLabel": "nacionalidad",
+            "nacionalityValue": "Portuguésa",
+            "languagesLabel": "idiomas",
+            "nativeLabel": "Nativo",
+            "language1": "Portugués",
+            "language2": "Inglés",
+            "language3": "Español",
+            "language4": "Italiano",
+            "language5": "Alemán",
+            "favHobbiesLabel": "aficiones favoritas",
+            "travelingHobbie": "Viajar",
+            "gamingHobbie": "Juegos",
+            "readingHobbie": "Lectura"
+        }
     }
 }

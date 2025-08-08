@@ -47,8 +47,26 @@
     "contactBanner": {
         "title": "Vamos Conversar!"
     },
-    "componentText": {
-        "basicInfoText": "Aqui fica um pequeno excerto de",
-        "jobEntryDates": ["De","até"]
+    "componentText":{
+        "jobEntryDates": ["Desde", "até"],
+        "basicInfo": {
+            "title": "Here's a little snippet of",
+            "nameLabel": "nome",
+            "ageLabel": "idade",
+            "nacionalityLabel": "nacionalidade",
+            "nacionalityValue": "Portuguesa",
+            "languagesLabel": "idiomas",
+            "nativeLabel": "Nativo",
+            "language1": "Português",
+            "language2": "Inglês",
+            "language3": "Espanhol",
+            "language4": "Italiano",
+            "language5": "Alemão",
+            "favHobbiesLabel": "hobbiesFavoritos",
+            "travelingHobbie": "Viajar",
+            "gamingHobbie": "Jogos",
+            "readingHobbie": "Leitura"
+        }
+
     }
 }

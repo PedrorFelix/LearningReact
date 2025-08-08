@@ -48,7 +48,24 @@
         "title": "Lass uns reden!"
     },
     "componentText": {
-        "basicInfoText": "Hier ist ein kleiner Ausschnitt von",
-        "jobEntryDates": ["Von","bis"]
+    "jobEntryDates": ["Von","bis"],
+    "basicInfo": {
+        "title": "Hier ist ein kleiner Ausschnitt von",
+        "nameLabel": "Name",
+        "ageLabel": "Alter",
+        "nacionalityLabel": "Nationalität",
+        "nacionalityValue": "Portugiesisch",
+        "languagesLabel": "Sprachen",
+        "nativeLabel": "Muttersprache",
+        "language1": "Portugiesisch",
+        "language2": "Englisch",
+        "language3": "Spanisch",
+        "language4": "Italienisch",
+        "language5": "Deutsch",
+        "favHobbiesLabel": "Lieblingshobbys",
+        "travelingHobbie": "Reisen",
+        "gamingHobbie": "Spielen",
+        "readingHobbie": "Lesen"
     }
+}
 }

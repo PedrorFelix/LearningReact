@@ -48,7 +48,24 @@
         "title": "Parliamone!"
     },
     "componentText": {
-        "basicInfoText": "Ecco un piccolo frammento di",
-        "jobEntryDates": ["Da","a"]
+    "jobEntryDates": ["Da","a"],
+    "basicInfo": {
+        "title": "Ecco un piccolo frammento di",
+        "nameLabel": "nome",
+        "ageLabel": "età",
+        "nacionalityLabel": "nazionalità",
+        "nacionalityValue": "Portoghesa",
+        "languagesLabel": "lingue",
+        "nativeLabel": "Madrelingua",
+        "language1": "Portoghese",
+        "language2": "Inglese",
+        "language3": "Spagnolo",
+        "language4": "Italiano",
+        "language5": "Tedesco",
+        "favHobbiesLabel": "hobby preferiti",
+        "travelingHobbie": "Viaggiare",
+        "gamingHobbie": "Giochi",
+        "readingHobbie": "Lettura"
     }
+}
 }
