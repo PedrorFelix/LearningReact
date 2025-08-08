@@ -1,0 +1,50 @@
+{
+    "navBar": {
+        "welcomeBtn": "Welcome",
+        "aboutBtn": "About",
+        "workBtn": "Work",
+        "contactBtn": "Contact"
+    },
+    "welcomeBanner": {
+        "title": "Hello_World!",
+        "subtitle": "I code things while drinking coffee",
+        "content": "My name is Pedro Félix and I do keyboard wizardry"
+    },
+    "aboutBanner":{
+        "title": "Tell me about yourself...",
+        "description1": "I'm an aspiring junior developer with a deep passion for coding and a will to build impactful software.",
+        "description2": "I'm eager to apply my skills, focusing in JavaScript and Python but I thrive to continuously learn from my experiences. My goal is to contribute with clean and effective code and grow into a skilled developer.",
+        "description3": "Contact Me! I'm always open to talk about new opportunities."
+    },
+    "workBanner":{
+        "title": "Main Quests Completed",
+        "jobEntry1": {
+            "position": "Junior Software Developer",
+            "company": "VisionSpace Portugal",
+            "location": "Figueira da Foz, Portugal",
+            "beginning": "May 2023",
+            "end": "February 2025",
+            "description": "A small description of working here"
+        },
+        "jobEntry2": {
+            "position": "Intern",
+            "company": "VisionSpace Technologies GmbH",
+            "location": "Darmstadt, Germany",
+            "beginning": "October 2022",
+            "end": "March 2023",
+            "description": "A small description why this intership was actually great"
+        },
+        "jobEntry3": {
+            "position": "Bachelor's Degree",
+            "degree": "IT and Multimedia",
+            "company": "Polythecnical Institute of Castelo Branco",
+            "location": "Castelo Branco, Portugal",
+            "beginning": "October 2017",
+            "end": "September 2022",
+            "description": "A small description of my degree"
+        }
+    },
+    "contactBanner": {
+        "title": "Let's Talk!"
+    }
+}

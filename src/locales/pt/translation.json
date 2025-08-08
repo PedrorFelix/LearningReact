@@ -1,0 +1,50 @@
+{
+    "navBar": {
+        "welcomeBtn": "Bem-vindo",
+        "aboutBtn": "Sobre",
+        "workBtn": "Trabalho",
+        "contactBtn": "Contacto"
+    },
+    "welcomeBanner": {
+        "title": "Olá_Mundo!",
+        "subtitle": "Eu programo enquanto bebo café",
+        "content": "O meu nome é Pedro Félix e faço magia com o teclado"
+    },
+    "aboutBanner": {
+        "title": "Sobre mim...",
+        "description1": "Sou um aspirante a programador júnior com uma paixão profunda por código e a vontade de criar software com impacto.",
+        "description2": "Tenho vontade de aplicar as minhas competências, com foco em JavaScript e Python, mas procuro sempre aprender e evoluir com as minhas experiências. O meu objetivo é contribuir com código limpo e eficaz e crescer para me tornar um programador experiente.",
+        "description3": "Contacta-me! Estou sempre disponível para conversar sobre novas oportunidades."
+    },
+    "workBanner": {
+        "title": "Missões Principais Concluídas",
+        "jobEntry1": {
+            "position": "Programador de Software Júnior",
+            "company": "VisionSpace Portugal",
+            "location": "Figueira da Foz, Portugal",
+            "beginning": "Maio 2023",
+            "end": "Fevereiro 2025",
+            "description": "Uma pequena descrição sobre o trabalho aqui"
+        },
+        "jobEntry2": {
+            "position": "Estagiário",
+            "company": "VisionSpace Technologies GmbH",
+            "location": "Darmstadt, Alemanha",
+            "beginning": "Outubro 2022",
+            "end": "Março 2023",
+            "description": "Uma pequena descrição porque este estágio foi realmente ótimo"
+        },
+        "jobEntry3": {
+            "position": "Licenciatura",
+            "degree": "Tecnologias de Informação e Multimédia",
+            "company": "Instituto Politécnico de Castelo Branco",
+            "location": "Castelo Branco, Portugal",
+            "beginning": "Outubro 2017",
+            "end": "Setembro 2022",
+            "description": "Uma pequena descrição da minha licenciatura"
+        }
+    },
+    "contactBanner": {
+        "title": "Vamos Conversar!"
+    }
+}

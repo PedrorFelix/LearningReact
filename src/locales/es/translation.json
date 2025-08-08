@@ -1,0 +1,50 @@
+{
+    "navBar": {
+        "welcomeBtn": "Bienvenido",
+        "aboutBtn": "Sobre mí",
+        "workBtn": "Trabajo",
+        "contactBtn": "Contacto"
+    },
+    "welcomeBanner": {
+        "title": "Hola_Mundo!",
+        "subtitle": "Programo mientras bebo café",
+        "content": "Mi nombre es Pedro Félix y hago magia con el teclado"
+    },
+    "aboutBanner": {
+        "title": "Sobre mí...",
+        "description1": "Soy un aspirante a desarrollador junior con una gran pasión por la programación y el deseo de crear software impactante.",
+        "description2": "Estoy ansioso por aplicar mis habilidades, con un enfoque en JavaScript y Python, pero busco aprender continuamente de mis experiencias. Mi objetivo es contribuir con código limpio y eficaz y convertirme en un desarrollador experto.",
+        "description3": "¡Contáctame! Siempre estoy disponible para hablar de nuevas oportunidades."
+    },
+    "workBanner": {
+        "title": "Misiones Principales Completadas",
+        "jobEntry1": {
+            "position": "Desarrollador de Software Junior",
+            "company": "VisionSpace Portugal",
+            "location": "Figueira da Foz, Portugal",
+            "beginning": "Mayo 2023",
+            "end": "Febrero 2025",
+            "description": "Una pequeña descripción de trabajar aquí"
+        },
+        "jobEntry2": {
+            "position": "Becario",
+            "company": "VisionSpace Technologies GmbH",
+            "location": "Darmstadt, Alemania",
+            "beginning": "Octubre 2022",
+            "end": "Marzo 2023",
+            "description": "Una pequeña descripción de por qué este período de prácticas fue realmente genial"
+        },
+        "jobEntry3": {
+            "position": "Grado",
+            "degree": "Tecnologías de la Información y Multimedia",
+            "company": "Instituto Politécnico de Castelo Branco",
+            "location": "Castelo Branco, Portugal",
+            "beginning": "Octubre 2017",
+            "end": "Septiembre 2022",
+            "description": "Una pequeña descripción de mi grado"
+        }
+    },
+    "contactBanner": {
+        "title": "¡Hablemos!"
+    }
+}

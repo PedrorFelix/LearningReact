@@ -1,0 +1,50 @@
+{
+    "navBar": {
+        "welcomeBtn": "Willkommen",
+        "aboutBtn": "Über mich",
+        "workBtn": "Arbeit",
+        "contactBtn": "Kontakt"
+    },
+    "welcomeBanner": {
+        "title": "Hallo_Welt!",
+        "subtitle": "Ich programmiere, während ich Kaffee trinke",
+        "content": "Mein Name ist Pedro Félix und ich zaubere mit der Tastatur"
+    },
+    "aboutBanner": {
+        "title": "Über mich...",
+        "description1": "Ich bin ein angehender Junior-Entwickler mit einer tiefen Leidenschaft für das Programmieren und dem Willen, wirkungsvolle Software zu entwickeln.",
+        "description2": "Ich bin bestrebt, meine Fähigkeiten anzuwenden, mit Fokus auf JavaScript und Python, aber ich lerne ständig aus meinen Erfahrungen. Mein Ziel ist es, mit sauberem und effektivem Code beizutragen und mich zu einem kompetenten Entwickler zu entwickeln.",
+        "description3": "Kontaktier mich! Ich bin immer offen, um über neue Möglichkeiten zu sprechen."
+    },
+    "workBanner": {
+        "title": "Hauptquests abgeschlossen",
+        "jobEntry1": {
+            "position": "Junior-Softwareentwickler",
+            "company": "VisionSpace Portugal",
+            "location": "Figueira da Foz, Portugal",
+            "beginning": "Mai 2023",
+            "end": "Februar 2025",
+            "description": "Eine kurze Beschreibung meiner Arbeit hier"
+        },
+        "jobEntry2": {
+            "position": "Praktikant",
+            "company": "VisionSpace Technologies GmbH",
+            "location": "Darmstadt, Deutschland",
+            "beginning": "Oktober 2022",
+            "end": "März 2023",
+            "description": "Eine kurze Beschreibung, warum dieses Praktikum wirklich toll war"
+        },
+        "jobEntry3": {
+            "position": "Bachelor-Abschluss",
+            "degree": "IT und Multimedia",
+            "company": "Polytechnisches Institut von Castelo Branco",
+            "location": "Castelo Branco, Portugal",
+            "beginning": "Oktober 2017",
+            "end": "September 2022",
+            "description": "Eine kurze Beschreibung meines Studiums"
+        }
+    },
+    "contactBanner": {
+        "title": "Lass uns reden!"
+    }
+}

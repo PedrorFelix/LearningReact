@@ -1,11 +1,12 @@
 import './styles/ContactPage.css';
 import { ContactEntry } from './ContactEntry';
+import { useTranslation } from 'react-i18next';
 
 export function ContactPage(){
-
+  const {t} = useTranslation();
   return(
     <div className="contactBanner">
-      <h1 className="contactTitle">Let's Talk!</h1>
+      <h1 className="contactTitle">{t('contactBanner.title')}</h1>
       <div className="contactList">
         <ContactEntry 
           contactIcon = {<i class="icon fa-solid fa-envelope"></i>}

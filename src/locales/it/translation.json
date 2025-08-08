@@ -1,0 +1,50 @@
+{
+    "navBar": {
+        "welcomeBtn": "Benvenuto",
+        "aboutBtn": "Su di me",
+        "workBtn": "Lavoro",
+        "contactBtn": "Contatti"
+    },
+    "welcomeBanner": {
+        "title": "Ciao_Mondo!",
+        "subtitle": "Programmo mentre bevo un caffè",
+        "content": "Il mio nome è Pedro Félix e faccio magie con la tastiera"
+    },
+    "aboutBanner": {
+        "title": "Su di me...",
+        "description1": "Sono un aspirante sviluppatore junior con una profonda passione per la programmazione e il desiderio di creare software di impatto.",
+        "description2": "Sono desideroso di mettere in pratica le mie competenze, con un focus su JavaScript e Python, ma mi impegno a imparare continuamente dalle mie esperienze. Il mio obiettivo è contribuire con codice pulito ed efficace e diventare uno sviluppatore esperto.",
+        "description3": "Contattami! Sono sempre disponibile a parlare di nuove opportunità."
+    },
+    "workBanner": {
+        "title": "Missioni Principali Completate",
+        "jobEntry1": {
+            "position": "Sviluppatore Software Junior",
+            "company": "VisionSpace Portugal",
+            "location": "Figueira da Foz, Portogallo",
+            "beginning": "Maggio 2023",
+            "end": "Febbraio 2025",
+            "description": "Una piccola descrizione del lavoro qui"
+        },
+        "jobEntry2": {
+            "position": "Stagista",
+            "company": "VisionSpace Technologies GmbH",
+            "location": "Darmstadt, Germania",
+            "beginning": "Ottobre 2022",
+            "end": "Marzo 2023",
+            "description": "Una piccola descrizione del perché questo stage è stato fantastico"
+        },
+        "jobEntry3": {
+            "position": "Laurea triennale",
+            "degree": "Tecnologie dell'Informazione e del Multimedia",
+            "company": "Istituto Politecnico di Castelo Branco",
+            "location": "Castelo Branco, Portogallo",
+            "beginning": "Ottobre 2017",
+            "end": "Settembre 2022",
+            "description": "Una piccola descrizione della mia laurea"
+        }
+    },
+    "contactBanner": {
+        "title": "Parliamone!"
+    }
+}

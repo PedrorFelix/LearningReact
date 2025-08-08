@@ -1,32 +1,33 @@
 import { JobEntry } from "./JobEntry";
 import './styles/WorkPage.css';
+import { useTranslation } from 'react-i18next';
 
 export function WorkPage(){
-
+  const {t} = useTranslation();
   return(
     <div className="workBanner">
-      <h1 className="workTitle">Main Quests Completed</h1>
+      <h1 className="workTitle">{t('workBanner.title')}</h1>
       <div className="jobList">
-        <JobEntry position={"Junior Software Developer"} 
-                  company={"VisionSpace Portugal"} 
-                  location={"Figueira da Foz, Portugal"} 
-                  beginnig={"May 2023"} end ={"February 2025"} 
-                  description={"A small description of working here"}
+        <JobEntry position={t('workBanner.jobEntry1.position')} 
+                  company={t('workBanner.jobEntry1.company')}
+                  location={t('workBanner.jobEntry1.location')} 
+                  beginnig={t('workBanner.jobEntry1.beginning')} end ={t('workBanner.jobEntry1.end')} 
+                  description={t('workBanner.jobEntry1.description')}
         />
 
-        <JobEntry position={"Intern"}
-                  company={"VisionSpace Technologies GmbH"}
-                  location={"Darmstadt, Germany"}
-                  beginnig={"October 2022"} end ={"March 2023"} 
-                  description={"A small description why this intership was actually great"}
+        <JobEntry position={t('workBanner.jobEntry2.position')}
+                  company={t('workBanner.jobEntry2.company')}
+                  location={t('workBanner.jobEntry2.location')} 
+                  beginnig={t('workBanner.jobEntry2.beginning')} end ={t('workBanner.jobEntry2.end')} 
+                  description={t('workBanner.jobEntry2.description')}
         />
 
-        <JobEntry position={"Bachelor's Degree"}
-                  degree = {"IT and Multimedia"}
-                  company={"Polythecnical Institute of Castelo Branco"}
-                  location={"Castelo Branco, Portugal"}
-                  beginnig={"October 2017"} end ={"September 2022"}
-                  description={"A small description of my degree"}
+        <JobEntry position={t('workBanner.jobEntry3.position')}
+                  degree = {t('workBanner.jobEntry3.degree')}
+                  company={t('workBanner.jobEntry3.company')}
+                  location={t('workBanner.jobEntry3.location')}
+                  beginnig={t('workBanner.jobEntry3.beginning')} end ={t('workBanner.jobEntry3.end')}
+                  description={t('workBanner.jobEntry3.description')}
         />
       </div>
       <i class="fa-solid fa-briefcase briefcaseIcon"></i>

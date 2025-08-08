@@ -1,16 +1,16 @@
 import { BasicInfo } from "./BasicInfo";
 import './styles/AboutPage.css';
+import { useTranslation } from 'react-i18next';
 
 export function AboutPage(){
-
+  const {t} = useTranslation();
   return(
     <div className="aboutBanner">
-      <h1 className="aboutTitle">"Tell me about yourself..."</h1>
+      <h1 className="aboutTitle">{t('aboutBanner.title')}</h1>
       <div className="description">
-        <p>I'm an aspiring junior developer with a deep passion for coding and a will to build impactful software.</p>
-        <p>I'm eager to apply my skills, focusing in JavaScript and Python but I thrive to continuously learn from my experiences.
-        My goal is to contribute with clean and effective code and grow into a skilled developer.</p>
-        <p>Contact Me! I'm always open to talk about new opportunities.</p>
+        <p>{t('aboutBanner.description1')}</p>
+        <p>{t('aboutBanner.description2')}</p>
+        <p>{t('aboutBanner.description3')}</p>
       </div>
       <div className="codeBlock"><BasicInfo /></div>
     </div>
