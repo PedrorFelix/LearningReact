@@ -1,0 +1,134 @@
+.language-switcher {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.language-hamburger-btn {
+  font-family: 'Bitcount', sans-serif !important;
+  background: transparent !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 0.8rem 1rem !important;
+  cursor: pointer;
+  border-radius: 30px !important;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.3s ease;
+  font-size: 1rem !important;
+  white-space: nowrap;
+}
+
+.language-hamburger-btn:hover {
+  background-color: rgba(0, 201, 170, 0.3) !important;
+}
+
+.current-language {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.language-arrow {
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+}
+
+.language-arrow.open {
+  transform: rotate(180deg);
+}
+
+.language-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #4c3666;
+  border-radius: 15px;
+  box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  z-index: 1001;
+  min-width: 160px;
+}
+
+.language-menu.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.language-option {
+  font-family: 'Bitcount', sans-serif !important;
+  width: 100%;
+  background: transparent !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 0.8rem 1rem !important;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.3s ease;
+  font-size: 0.9rem !important;
+  text-align: left;
+}
+
+.language-option:hover {
+  background-color: rgba(0, 201, 170, 0.3) !important;
+}
+
+.language-option.active {
+  background-color: #00c9aa !important;
+  color: #4c3666 !important;
+}
+
+.language-option.active:hover {
+  background-color: rgba(0, 201, 170, 0.8) !important;
+}
+
+.flag {
+  font-size: 1.1rem;
+}
+
+.language-name {
+  flex: 1;
+}
+
+/* Mobile styles */
+@media (max-width: 700px) {
+  .language-switcher {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1002;
+  }
+  
+  .language-hamburger-btn {
+    padding: 0.6rem 0.8rem !important;
+    font-size: 0.9rem !important;
+    border-radius: 20px !important;
+  }
+  
+  .language-menu {
+    right: 0;
+    min-width: 140px;
+    border-radius: 10px;
+  }
+  
+  .language-option {
+    padding: 0.7rem 0.8rem !important;
+    font-size: 0.85rem !important;
+  }
+  
+  .current-language {
+    gap: 0.2rem;
+  }
+  
+  .flag {
+    font-size: 1rem;
+  }
+}

@@ -9,6 +9,7 @@ export function NavBar() {
   const navigate = useNavigate();
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
   const toggleMenu = () =>{
     setIsMenuOpen(!isMenuOpen);
   };

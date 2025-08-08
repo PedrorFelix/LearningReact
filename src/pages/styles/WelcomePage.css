@@ -4,72 +4,121 @@
     grid-template-areas:
         "WelcomeTitle ImageSubtitleWrapper"
         "Content ImageSubtitleWrapper";
-    padding:20px;
+    grid-template-columns: 1fr 1fr;
+    padding: clamp(1rem, 4vw, 2rem);
+    gap: clamp(1rem, 3vw, 2rem);
+    min-height: 80vh;
+    align-items: start;
+    box-sizing: border-box;
 }
 
 .welcomeTitle {
-    font-size: 7vw;
-    padding-left: 50px;
-    padding-top: 70px;
+    grid-area: WelcomeTitle;
+    font-size: clamp(2rem, 6vw, 4rem);
+    margin: 0;
+    padding: clamp(2rem, 8vw, 4rem) 0 clamp(1rem, 4vw, 2rem) clamp(1rem, 4vw, 3rem);
+    line-height: 1.1;
+    word-wrap: break-word;
+    hyphens: auto;
+    align-self: center;
 }
 
 .imageSubtitleWrapper {
+    grid-area: ImageSubtitleWrapper;
     width: 80%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    align-self: center;
 }
 
 .content {
-    font-size: 2vw;
-    position:relative;
-    bottom:200%;
-    text-align: center;
+    grid-area: Content;
+    font-size: clamp(1rem, 2.2vw, 1.4rem);
+    line-height: 1.5;
+    text-align: left;
+    padding: clamp(0.5rem, 2vw, 1rem);
+    margin: 0;
+    align-self: start;
+    word-wrap: break-word;
+    hyphens: auto;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .subtitleShape {
     background-color: #00c9aa;
     border-radius: 20px;
-    margin:0;
+    margin: clamp(1rem, 3vw, 2rem) 0 0 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
     position: relative;
-    bottom: 5rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 1;
+    bottom: 110px;
 }
 
 .subtitle {
     color: #4c3666;
-    margin: 0px;
-    padding: 10px;
-    font-size: 120%;
+    margin: 0;
+    padding: clamp(0.8rem, 2.5vw, 1.2rem);
+    font-size: clamp(0.9rem, 2.5vw, 1.3rem);
     text-align: center;
+    line-height: 1.4;
+    word-wrap: break-word;
+    hyphens: auto;
 }
 
-@media (max-width: 700px){
-
-    .welcomeBanner{
+/* Mobile styles */
+@media (max-width: 700px) {
+    .welcomeBanner {
         grid-template-areas:
-        "WelcomeTitle"
-        "ImageSubtitleWrapper"
-        "Content";
+            "WelcomeTitle"
+            "ImageSubtitleWrapper"
+            "Content";
+        grid-template-columns: 1fr;
+        padding: clamp(1rem, 5vw, 1.5rem);
+        gap: clamp(1.5rem, 4vw, 2rem);
         align-items: center;
+        justify-items: center;
+        min-height: auto;
     }
 
-    .welcomeTitle{
-        font-size: 12vw;
-        padding-left: 20px;
+    .welcomeTitle {
+        font-size: clamp(2.5rem, 12vw, 5rem);
+        padding: clamp(1rem, 4vw, 2rem) clamp(0.5rem, 3vw, 1rem);
+        text-align: center;
+        align-self: center;
     }
 
     .imageSubtitleWrapper {
-        position: relative;
-        left: 10%;
+        width: clamp(280px, 90vw, 400px);
+        max-width: 100%;
+        align-self: center;
     }
 
     .subtitleShape {
-        bottom: 3rem;
+        margin: clamp(1rem, 4vw, 1.5rem) 0 0 0;
+        border-radius: 15px;
+        bottom: 60px;
     }
 
-
-    .content{
-        font-size: 4vw;
-        padding-left: 0px;
-        bottom:0%;
+    .subtitle {
+        font-size: clamp(0.9rem, 4vw, 1.1rem);
+        padding: clamp(0.8rem, 3vw, 1rem);
+        line-height: 1.3;
     }
 
+    .content {
+        font-size: clamp(0.9rem, 4vw, 1.2rem);
+        padding: clamp(0.5rem, 2vw, 1rem);
+        text-align: center;
+        align-self: center;
+        width: 100%;
+        max-width: 100%;
+    }
 }
