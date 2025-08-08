@@ -46,5 +46,9 @@
     },
     "contactBanner": {
         "title": "Vamos Conversar!"
+    },
+    "componentText": {
+        "basicInfoText": "Aqui fica um pequeno excerto de",
+        "jobEntryDates": ["De","até"]
     }
 }

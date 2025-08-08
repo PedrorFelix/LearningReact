@@ -46,5 +46,9 @@
     },
     "contactBanner": {
         "title": "Let's Talk!"
+    },
+    "componentText":{
+        "basicInfoText": "Here's a little snippet of",
+        "jobEntryDates": ["From", "until"]
     }
 }

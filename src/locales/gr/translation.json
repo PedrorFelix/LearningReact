@@ -46,5 +46,9 @@
     },
     "contactBanner": {
         "title": "Lass uns reden!"
+    },
+    "componentText": {
+        "basicInfoText": "Hier ist ein kleiner Ausschnitt von",
+        "jobEntryDates": ["Von","bis"]
     }
 }

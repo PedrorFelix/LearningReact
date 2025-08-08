@@ -1,7 +1,8 @@
 import './styles/BasicInfo.css';
+import { useTranslation } from 'react-i18next';
 
 export function BasicInfo() {
-
+    const {t} = useTranslation();
     const jsonSnippet = `{
     "name": "Pedro Félix",
     "age": 25,
@@ -23,7 +24,7 @@ export function BasicInfo() {
 
     return(
         <div className="basicInfo">
-            <p className="basicInfoTitle">Here's a little snippet of pedroFelix.json:</p>
+            <p className="basicInfoTitle">{t('componentText.basicInfoText')} pedroFelix.json:</p>
             <div className="codeSnippet">
                 <pre><code>{jsonSnippet}</code></pre>
             </div>
