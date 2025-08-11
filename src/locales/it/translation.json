@@ -24,7 +24,7 @@
             "location": "Figueira da Foz, Portogallo",
             "beginning": "Maggio 2023",
             "end": "Febbraio 2025",
-            "description": "Una piccola descrizione del lavoro qui"
+            "description": "Sono passato da stagista a una posizione a tempo pieno, assumendo la piena responsabilità e il controllo del progetto di visualizzazione di dati geospaziali. Ho sviluppato e mantenuto soluzioni web per la rappresentazione e l'analisi di dati geografici. Ho partecipato allo sviluppo di un simulatore di satelliti, contribuendo alla simulazione di sistemi complessi e al successo di futuri lanci."
         },
         "jobEntry2": {
             "position": "Stagista",
@@ -32,7 +32,7 @@
             "location": "Darmstadt, Germania",
             "beginning": "Ottobre 2022",
             "end": "Marzo 2023",
-            "description": "Una piccola descrizione del perché questo stage è stato fantastico"
+            "description": "Sviluppo di soluzioni web per la visualizzazione e l'analisi di dati geospaziali. Manipolazione ed elaborazione di dati geografici per l'integrazione in piattaforme online. Ideazione del design e implementazione di interfacce interattive per mappe e visualizzazioni di movimenti orbitali."
         },
         "jobEntry3": {
             "position": "Laurea triennale",
@@ -41,7 +41,7 @@
             "location": "Castelo Branco, Portogallo",
             "beginning": "Ottobre 2017",
             "end": "Settembre 2022",
-            "description": "Una piccola descrizione della mia laurea"
+            "description": "Laurea in Tecnologie dell'Informazione e del Multimedia con specializzazione in programmazione web, gestione dei sistemi, analisi dei dati e intelligenza artificiale. Esperienza nella creazione e nello sviluppo di siti web, modelli di IA per scopi automobilistici e amministrazione di database."
         }
     },
     "contactBanner": {

@@ -24,7 +24,7 @@
             "location": "Figueira da Foz, Portugal",
             "beginning": "Maio 2023",
             "end": "Fevereiro 2025",
-            "description": "Uma pequena descrição sobre o trabalho aqui"
+            "description": "Progresso de estagiário para posição de tempo integral, assumindo total responsabilidade e controlo sobre o projeto de visualização de dados geoespaciais. Desenvolvimento e manutenção de soluções web para a representação e análise de dados geográficos. Participação no desenvolvimento de um simulador de satélite, contribuindo para a simulação de sistemas complexos e o sucesso de futuros lançamentos."
         },
         "jobEntry2": {
             "position": "Estagiário",
@@ -32,7 +32,7 @@
             "location": "Darmstadt, Alemanha",
             "beginning": "Outubro 2022",
             "end": "Março 2023",
-            "description": "Uma pequena descrição porque este estágio foi realmente ótimo"
+            "description": "Desenvolvimento de soluções web para a visualização e análise de dados geoespaciais. Manipulação e processamento de dados geográficos para integração em plataformas online. Concepção de design e implementação de interfaces interativas para mapas e visualizações de movimentos orbitais"
         },
         "jobEntry3": {
             "position": "Licenciatura",
@@ -41,7 +41,7 @@
             "location": "Castelo Branco, Portugal",
             "beginning": "Outubro 2017",
             "end": "Setembro 2022",
-            "description": "Uma pequena descrição da minha licenciatura"
+            "description": "Licenciatura em Tecnologias de Informação e Multimédia com especialização em programação web, gestão de sistemas, análise de dados e inteligência artificial. Experiência na criação e desenvolvimento de websites, modelos de IA com fins automotivos e administração de bases de dados."
         }
     },
     "contactBanner": {
@@ -50,7 +50,7 @@
     "componentText":{
         "jobEntryDates": ["Desde", "até"],
         "basicInfo": {
-            "title": "Here's a little snippet of",
+            "title": "Fica aqui um excerto do ficheiro",
             "nameLabel": "nome",
             "ageLabel": "idade",
             "nacionalityLabel": "nacionalidade",

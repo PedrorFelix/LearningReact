@@ -24,7 +24,7 @@
             "location": "Figueira da Foz, Portugal",
             "beginning": "May 2023",
             "end": "February 2025",
-            "description": "A small description of working here"
+            "description": "Progressed from intern to a full-time position, assuming full responsibility and control over the geospatial data visualization project. Developed and maintained web solutions for the representation and analysis of geographic data. Participated in the development of a satellite simulator, contributing to the simulation of complex systems and the success of future launches."
         },
         "jobEntry2": {
             "position": "Intern",
@@ -32,7 +32,7 @@
             "location": "Darmstadt, Germany",
             "beginning": "October 2022",
             "end": "March 2023",
-            "description": "A small description why this intership was actually great"
+            "description": "Development of web solutions for the visualization and analysis of geospatial data. Manipulation and processing of geographic data for integration into online platforms. Design conception and implementation of interactive interfaces for maps and orbital movement visualizations."
         },
         "jobEntry3": {
             "position": "Bachelor's Degree",
@@ -41,7 +41,7 @@
             "location": "Castelo Branco, Portugal",
             "beginning": "October 2017",
             "end": "September 2022",
-            "description": "A small description of my degree"
+            "description": "Bachelor's degree in Information and Multimedia Technologies with a specialization in web programming, systems management, data analysis, and artificial intelligence. Experience in the creation and development of websites, AI models for automotive purposes, and database administration."
         }
     },
     "contactBanner": {

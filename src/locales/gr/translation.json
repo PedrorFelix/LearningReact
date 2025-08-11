@@ -24,7 +24,7 @@
             "location": "Figueira da Foz, Portugal",
             "beginning": "Mai 2023",
             "end": "Februar 2025",
-            "description": "Eine kurze Beschreibung meiner Arbeit hier"
+            "description": "Vom Praktikanten zur Vollzeitstelle aufgestiegen, wobei ich die volle Verantwortung und Kontrolle über das Projekt zur Geodatenvisualisierung übernommen habe. Entwicklung und Wartung von Weblösungen zur Darstellung und Analyse von geografischen Daten. Teilnahme an der Entwicklung eines Satellitensimulators, wodurch ich zur Simulation komplexer Systeme und zum Erfolg zukünftiger Starts beigetragen habe."
         },
         "jobEntry2": {
             "position": "Praktikant",
@@ -32,7 +32,7 @@
             "location": "Darmstadt, Deutschland",
             "beginning": "Oktober 2022",
             "end": "März 2023",
-            "description": "Eine kurze Beschreibung, warum dieses Praktikum wirklich toll war"
+            "description": "Entwicklung von Weblösungen zur Visualisierung und Analyse von Geodaten. Manipulation und Verarbeitung von geografischen Daten zur Integration in Online-Plattformen. Designkonzeption und Implementierung von interaktiven Benutzeroberflächen für Karten und Visualisierungen von Orbitalbewegungen."
         },
         "jobEntry3": {
             "position": "Bachelor-Abschluss",
@@ -41,7 +41,7 @@
             "location": "Castelo Branco, Portugal",
             "beginning": "Oktober 2017",
             "end": "September 2022",
-            "description": "Eine kurze Beschreibung meines Studiums"
+            "description": "Bachelor-Abschluss in Informations- und Multimediatechnologien mit Spezialisierung auf Web-Programmierung, Systemverwaltung, Datenanalyse und künstliche Intelligenz. Erfahrung in der Erstellung und Entwicklung von Websites, KI-Modellen für automobile Zwecke und Datenbankverwaltung."
         }
     },
     "contactBanner": {
