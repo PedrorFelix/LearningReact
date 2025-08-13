@@ -4,11 +4,11 @@
   </g> 
   <defs> 
     <linearGradient id="paint0_linear_238_1161" x1="0%" y1="0%" x2="0%" y2="100%" gradientUnits="userSpaceOnUse"> 
-    <stop offset="0%" stop-color="#1a1625"/> 
-    <stop offset="25%" stop-color="#30294448"/>
-    <stop offset="50%" stop-color="#1a1625"/>
-    <stop offset="75%" stop-color="#30294449"/>
-    <stop offset="100%" stop-color="#1a1625"/>
+    <stop offset="0%" stop-color="rgba(76, 54, 102, 0.15)"/> 
+    <stop offset="25%" stop-color="rgba(76, 54, 102, 0.1)"/>
+    <stop offset="50%" stop-color="rgba(76, 54, 102, 0.05)"/>
+    <stop offset="75%" stop-color="rgba(76, 54, 102, 0.1)"/>
+    <stop offset="100%" stop-color="rgba(76, 54, 102, 0.15)"/>
     </linearGradient> 
     <clipPath id="clip0_238_1161"> <rect width="200" height="200" fill="white"/> 
     </clipPath> 
