@@ -8,7 +8,7 @@ export function ContactEntry( { contactIcon, contactType, contact, btnText } ){
     }
 
     const handleOpenLink = () =>{
-        window.open(contact, "_blank", "moopenee noreferrer");
+        window.open(contact, "_blank", "noopenee noreferrer");
     }
 
     return (
