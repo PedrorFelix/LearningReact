@@ -17,8 +17,8 @@
 
 .contactBtn{
     font-family: 'Bitcount', sans-serif;
-    background-color: var(--color-secondary);
-    color : var(--text-primary);
+    background-color: var(--color-primary);
+    color : var(--text-accent);
     padding: 8px;
     border: none;
     border-radius: 16px;

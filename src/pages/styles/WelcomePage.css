@@ -50,7 +50,7 @@
 }
 
 .subtitleShape {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     border-radius: 20px;
     margin: clamp(1rem, 3vw, 2rem) 0 0 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -63,7 +63,7 @@
 }
 
 .subtitle {
-    color: var(--color-primary);
+    color: var(--text-accent);
     margin: 0;
     padding: clamp(0.8rem, 2.5vw, 1.2rem);
     font-size: clamp(0.9rem, 2.5vw, 1.3rem);

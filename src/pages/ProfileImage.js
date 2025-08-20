@@ -19,7 +19,7 @@ export function ProfileImage( { svgpath } ) {
         </defs>
         <rect x="0" y="0" width="540" height="540" fill="var(--bg-secondary)" mask="url(#maskForBg2)" />
 
-        <rect x="0" y="0" width="540" height="540" fill="var(--bg-accent)" mask="url(#maskForBg1)" />
+        <rect x="0" y="0" width="540" height="540" fill="var(--bg-primary)" mask="url(#maskForBg1)" />
         
         <image href= { imagePath } x="0" y="-25" width="540" height="540" mask="url(#maskForImage)" 
           alt="Pedro Félix - Junior Software Developer"/>

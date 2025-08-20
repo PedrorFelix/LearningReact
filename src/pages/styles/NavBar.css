@@ -27,8 +27,8 @@
 }
 
 .active-btn {
-  background-color: var(--color-secondary) !important;
-  color : var(--color-primary) !important;
+  background-color: var(--color-primary) !important;
+  color : var(--text-accent) !important;
   font-size: 1.5rem !important;
   height: 7vh;
 }
