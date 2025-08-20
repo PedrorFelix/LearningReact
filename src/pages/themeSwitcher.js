@@ -1,8 +1,8 @@
 import React from 'react';
 import { useTheme } from "./themeContext";
 
-export function themeSwitcher() {
-    const { theme, toggleTheme } = useTheme();
+export function ThemeSwitcher() {
+    const { theme, toggleTheme }  = useTheme();
 
     return(
         <button className="theme-switcher-btn"

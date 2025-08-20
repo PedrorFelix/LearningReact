@@ -4,20 +4,23 @@ import { WelcomePage } from "./WelcomePage";
 import { AboutPage } from "./AboutPage";
 import { WorkPage } from "./WorkPage";
 import { ContactPage } from "./ContactPage";
+import { ThemeProvider } from "./themeContext";
 import './styles/App.css';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/LearningReact">
-      <div className="mainPage">
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<WelcomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/work" element={<WorkPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+    <ThemeProvider>
+      <BrowserRouter basename="/LearningReact">
+        <div className="mainPage">
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<WelcomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/work" element={<WorkPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+    </ThemeProvider>
   );
 }

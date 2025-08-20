@@ -1,4 +1,4 @@
-import React, {createContext, useContext, useState, useEffect} from 'react;'
+import React, {createContext, useContext, useState, useEffect} from 'react';
 
 //create context
 const ThemeContext = createContext();
@@ -12,7 +12,7 @@ export const useTheme = () =>{
 export const ThemeProvider = ({ children }) => {
     const [theme, setTheme] = useState( () => {
         //if system uses dark theme
-        if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark').matches){
+        if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches){
             return 'dark';
         }
         //if not, deafult to light

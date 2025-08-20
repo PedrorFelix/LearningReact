@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import "./styles/NavBar.css";
 import { useTranslation } from 'react-i18next';
 import { LanguageSwitcher } from './languageSwitcher.js';
+import { ThemeSwitcher } from "./themeSwitcher.js";
 
 export function NavBar() {
   const {t} = useTranslation();
@@ -38,6 +39,7 @@ export function NavBar() {
           className={location.pathname ==="/contact" ? "active-btn" : "not-active-btn"} 
           onClick={() => AutoCloseNav("/contact")}>{t('navBar.contactBtn')}</button>
         </div>
+        <ThemeSwitcher />
         <LanguageSwitcher />
         
       </nav>
