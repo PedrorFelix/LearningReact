@@ -1,6 +1,6 @@
 .navBar{
-  background-color: #4c3666;
-  color: #f5f2ed;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
   display: flex;
   position: relative;
   height:8vh;
@@ -11,7 +11,7 @@
 
 .navBar button {
   font-family: 'Bitcount', sans-serif;
-  color: #fff;
+  color: var(--text-primary);
   background: transparent;
   border: none;
   padding: 1rem 1rem;
@@ -27,8 +27,8 @@
 }
 
 .active-btn {
-  background-color: #00c9aa !important;
-  color : #4c3666 !important;
+  background-color: var(--color-secondary) !important;
+  color : var(--color-primary) !important;
   font-size: 1.5rem !important;
   height: 7vh;
 }
@@ -50,6 +50,7 @@
   padding: 0.5rem;
   z-index: 999;
   font-size: 1.1rem !important;
+  color: var(--text-primary);
 }
 
 @media (max-width: 700px){
@@ -63,7 +64,7 @@
     left: -100%;
     width: 100%;
     height: calc(100vh - 8vh);
-    background-color: #4c3666;
+    background-color: var(--bg-secondary);
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;

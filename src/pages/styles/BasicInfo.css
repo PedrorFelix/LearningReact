@@ -1,6 +1,6 @@
 .basicInfo {
-    background-color: #4c3666;
-    color: #f5f2ed;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
     padding: clamp(0.75rem, 3vw, 1.25rem);
     border-radius: 10px;
     box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.5);

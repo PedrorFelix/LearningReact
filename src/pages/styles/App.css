@@ -1,3 +1,5 @@
+@import './themes.css';
+
 @font-face {
   font-family: 'Bitcount';
   src: url(../../fonts/Bitcount-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf) format('truetype');
@@ -7,8 +9,8 @@
 
 .mainPage {
   min-height: 100vh;
-  background-color: #1a1625;
-  color:#f5f2ed;
+  background-color: var(--bg-primary);
+  color:var(--text-primary);
   background-image: url('../../assets/backgroundShape.svg');
   background-repeat: repeat;
   background-size: 250px 250px;

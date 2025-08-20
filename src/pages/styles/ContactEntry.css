@@ -1,7 +1,7 @@
 .contactEntry{
     font-family: 'Bitcount', sans-serif;
-    background-color: #4c3666;
-    color: #f5f2ed;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
     margin: 5px;
     padding: 15px;
     text-align: center;
@@ -17,8 +17,8 @@
 
 .contactBtn{
     font-family: 'Bitcount', sans-serif;
-    background-color: #00c9aa;
-    color : #4c3666;
+    background-color: var(--color-secondary);
+    color : var(--text-primary);
     padding: 8px;
     border: none;
     border-radius: 16px;

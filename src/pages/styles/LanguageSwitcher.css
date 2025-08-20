@@ -7,7 +7,7 @@
 .language-hamburger-btn {
   font-family: 'Bitcount', sans-serif !important;
   background: transparent !important;
-  color: #f5f2ed !important;
+  color: var(--text-primary) !important;
   border: none !important;
   padding: 0.8rem 1rem !important;
   cursor: pointer;
@@ -43,7 +43,7 @@
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: #4c3666;
+  background-color: var(--bg-secondary);
   border-radius: 15px;
   box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.5);
   overflow: hidden;
@@ -66,7 +66,7 @@
   font-family: 'Bitcount', sans-serif !important;
   width: 100%;
   background: transparent !important;
-  color: #f5f2ed !important;
+  color: var(--text-primary) !important;
   border: none !important;
   padding: 0.8rem 1rem !important;
   cursor: pointer;
@@ -83,8 +83,8 @@
 }
 
 .language-option.active {
-  background-color: #00c9aa !important;
-  color: #4c3666 !important;
+  background-color: var(--color-secondary) !important;
+  color: var(--text-secondary) !important;
 }
 
 .language-option.active:hover {
