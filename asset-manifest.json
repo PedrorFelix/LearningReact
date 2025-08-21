@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/LearningReact/static/css/main.48ab6371.css",
-    "main.js": "/LearningReact/static/js/main.ed399935.js",
+    "main.css": "/LearningReact/static/css/main.8a810971.css",
+    "main.js": "/LearningReact/static/js/main.f8456313.js",
     "static/js/453.15c7e972.chunk.js": "/LearningReact/static/js/453.15c7e972.chunk.js",
-    "static/media/stylizedProfileCropped.png": "/LearningReact/static/media/stylizedProfileCropped.f7b46a7ff66609fe2c66.png",
+    "static/media/stylizedProfileCropped3.png": "/LearningReact/static/media/stylizedProfileCropped3.06bda6a9d5d37ab2c857.png",
+    "static/media/newBgLight.png": "/LearningReact/static/media/newBgLight.8690dc4979e695f8bb8e.png",
     "static/media/Bitcount-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf": "/LearningReact/static/media/Bitcount-VariableFont_CRSV,ELSH,ELXP,slnt,wght.acc0ea7dfbc8dc966f34.ttf",
-    "static/media/backgroundShape.svg": "/LearningReact/static/media/backgroundShape.73c5804e62e3c49b30b4.svg",
+    "static/media/newBgDark.png": "/LearningReact/static/media/newBgDark.44abc37deece72c34fe3.png",
     "index.html": "/LearningReact/index.html",
     "static/media/imageContainer.svg": "/LearningReact/static/media/imageContainer.8b1d2aaf67b540ce33f43ee8792f506d.svg",
-    "main.48ab6371.css.map": "/LearningReact/static/css/main.48ab6371.css.map",
-    "main.ed399935.js.map": "/LearningReact/static/js/main.ed399935.js.map",
+    "main.8a810971.css.map": "/LearningReact/static/css/main.8a810971.css.map",
+    "main.f8456313.js.map": "/LearningReact/static/js/main.f8456313.js.map",
     "453.15c7e972.chunk.js.map": "/LearningReact/static/js/453.15c7e972.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48ab6371.css",
-    "static/js/main.ed399935.js"
+    "static/css/main.8a810971.css",
+    "static/js/main.f8456313.js"
   ]
 }
