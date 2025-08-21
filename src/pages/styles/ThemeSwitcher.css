@@ -3,3 +3,10 @@
   display: flex;
   left: 30%
 }
+
+@media (max-width: 700px) {
+  .language-switcher {
+    left: 20%
+  }
+
+}
