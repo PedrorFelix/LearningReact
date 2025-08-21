@@ -1,17 +1,8 @@
 import "./styles/ProfileImage.css";
 import"./styles/themes.css";
-import { useTheme } from "./themeContext.js";
-import darkImage from "../assets/stylizedProfileCropped3.png";
-import lightImage from "../assets/stylizedProfileCropped3.png";
+import image from "../assets/stylizedProfileCropped3.png";
 
 export function ProfileImage( { svgpath } ) {
-
-  const { theme } = useTheme();
-
-  const images = {
-    dark: darkImage,
-    light: lightImage
-  };
 
   return (
     <div className='imageContainer'>
@@ -31,7 +22,7 @@ export function ProfileImage( { svgpath } ) {
 
         <rect x="0" y="0" width="540" height="540" fill="var(--bg-primary)" mask="url(#maskForBg1)" />
         
-        <image href= { images[theme] } x="0" y="-25" width="540" height="540" mask="url(#maskForImage)" 
+        <image href= { image } x="0" y="-25" width="540" height="540" mask="url(#maskForImage)" 
           alt="Pedro Félix - Junior Software Developer"/>
       </svg>
     </div>
