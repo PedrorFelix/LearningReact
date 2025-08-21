@@ -5,6 +5,7 @@
     --text-secondary: #b8a0d9;
     --text-accent: #4c3666;
     --color-primary: #00c9aa;
+    --bg: url('../../assets/newBgDark.png');
 }
 
 [data-theme="light"] {
@@ -14,4 +15,5 @@
     --text-secondary: #4b5563;
     --text-accent: #e8f0fe;
     --color-primary: #2563eb;
+    --bg: url('../../assets/newBgLight.png');
 }

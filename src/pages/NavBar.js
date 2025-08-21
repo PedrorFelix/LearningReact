@@ -41,7 +41,7 @@ export function NavBar() {
         </div>
         <ThemeSwitcher />
         <LanguageSwitcher />
-        
+
       </nav>
   );
 }

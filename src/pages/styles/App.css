@@ -11,9 +11,8 @@
   min-height: 100vh;
   background-color: var(--bg-primary);
   color:var(--text-primary);
-  background-image: url('../../assets/backgroundShape.svg');
-  background-repeat: repeat;
-  background-size: 250px 250px;
+  background-image: var(--bg);
+  background-size: auto;
 }
 
 .app {
