@@ -84,7 +84,7 @@
 
 .language-option.active {
   background-color: var(--color-primary) !important;
-  color: var(--text-secondary) !important;
+  color: var(--text-accent) !important;
 }
 
 .language-option.active:hover {
