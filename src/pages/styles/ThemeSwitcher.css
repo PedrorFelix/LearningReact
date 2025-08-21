@@ -1,12 +1,13 @@
 .theme-switcher-btn {
   position: relative;
   display: flex;
-  left: 30%
+  left: 30%;
+  padding:0;
+  margin:0;
 }
 
 @media (max-width: 700px) {
   .language-switcher {
     left: 20%
   }
-
 }

@@ -39,8 +39,10 @@ export function NavBar() {
           className={location.pathname ==="/contact" ? "active-btn" : "not-active-btn"} 
           onClick={() => AutoCloseNav("/contact")}>{t('navBar.contactBtn')}</button>
         </div>
-        <ThemeSwitcher />
-        <LanguageSwitcher />
+        <div className="nav-controls">
+          <ThemeSwitcher />
+          <LanguageSwitcher />
+        </div>
 
       </nav>
   );
