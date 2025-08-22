@@ -21,7 +21,7 @@
 }
 
 .language-hamburger-btn:hover {
-  background-color: rgba(0, 201, 170, 0.3) !important;
+  background-color: var(--color-hover) !important;
 }
 
 .current-language {
@@ -79,16 +79,16 @@
 }
 
 .language-option:hover {
-  background-color: rgba(0, 201, 170, 0.3) !important;
+  background-color: var(--color-hover) !important;
 }
 
 .language-option.active {
   background-color: var(--color-primary) !important;
-  color: var(--text-accent) !important;
+  color: var(--bg-secondary) !important;
 }
 
 .language-option.active:hover {
-  background-color: rgba(0, 201, 170, 0.8) !important;
+  background-color: var(--color-hover) !important;
 }
 
 .flag {

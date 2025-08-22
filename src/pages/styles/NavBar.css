@@ -28,7 +28,7 @@
 
 .active-btn {
   background-color: var(--color-primary) !important;
-  color : var(--text-accent) !important;
+  color : var(--bg-secondary) !important;
   font-size: 1.5rem !important;
   height: 7vh;
 }
@@ -38,7 +38,7 @@
 }
 
 .not-active-btn:hover{
-  background-color: rgba(0, 201, 170, 0.5);
+  background-color: var(--color-hover);
 }
 
 .hamburger-btn{
